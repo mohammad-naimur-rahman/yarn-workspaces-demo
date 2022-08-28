@@ -1,0 +1,16 @@
+{
+  "name": "yarn-workspaces-demo",
+  "version": "1.0.0",
+  "description": "Its a yarn workspaces monorepo demo using react as frontend and express as backend",
+  "main": "index.js",
+  "scripts": {
+    "start:frontend": "yarn --cwd frontend start",
+    "start:backend": "yarn --cwd backend start",
+    "dev": "concurrently \"yarn --cwd frontend start\" \"yarn --cwd backend start\""
+  },
+  "author": "Naimur Rahman <naeemhasan28@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.3.0"
+  }
+}
