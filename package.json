@@ -6,7 +6,7 @@
   "scripts": {
     "start:frontend": "yarn --cwd frontend start",
     "start:backend": "yarn --cwd backend start",
-    "dev": "concurrently \"yarn --cwd frontend start\" \"yarn --cwd backend start\""
+    "start": "concurrently \"yarn --cwd frontend start\" \"yarn --cwd backend start\""
   },
   "author": "Naimur Rahman <naeemhasan28@gmail.com>",
   "license": "MIT",
